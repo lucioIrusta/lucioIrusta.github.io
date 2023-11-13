@@ -1,18 +1,19 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #cce5ff; /* Azul claro */
+    background-color: #f8f8b5; /* Azul claro */
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #3366cc; /* Azul oscuro */
+    background-color: #eddb0f; /* Azul oscuro */
     text-align: center;
     padding: 20px;
 }
 
 h1 {
-    color: #fff;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
 }
 
 .portfolio {
@@ -28,7 +29,7 @@ h1 {
     border-radius: 5px;
     margin: 10px;
     padding: 20px;
-    width: 300px;
+    width: 180px;
     position: relative;
     transition: transform 0.3s;
     transform-style: preserve-3d;
@@ -88,7 +89,7 @@ h1 {
 }
 
 footer {
-    background-color: #3366cc; /* Fondo azul oscuro para el footer */
+    background-color: #eddb0f; /* Azul oscuro */;
     color: #fff; /* Texto blanco */
     text-align: center; /* Texto centrado */
     padding: 10px 0; /* Espaciado interno */
